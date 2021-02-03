@@ -23,7 +23,13 @@
             <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
         </license>
     </licenses>
-
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/contractshark/smartcheck</url>
+    </repository>
+  </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
