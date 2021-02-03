@@ -1,5 +1,7 @@
 name: maven
-
+on: 
+  push:
+    
 jobs:
   build:
 
